@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Práctica 8 - Ejercicio 5: Tablas en el mundo real</title>
+    <style type="text/css">
+        td, th { border: 1px solid #CCC; padding: 8px; text-align: center; }
+        table { border: 1px solid black; border-collapse: collapse; margin-bottom: 20px; width: 100%; }
+        img { width: 100px; height: auto; }
+    </style>
+</head>
+<body>
+    <h1>Práctica 8 - Ejercicio 5</h1>
+
+    <!-- TABLA 1: Aventuras en la Toscana -->
+    <h2>Tabla 1: Aventuras en la Toscana</h2>
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">Imagen miniatura</th>
+                <th scope="col">Lugar (nombre)</th>
+                <th scope="col">Fecha y hora aprox. de la visita</th>
+                <th scope="col">Descripción</th>
+                <th scope="col">Mapa de la ubicación</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Fila 1: Campo -->
+            <tr>
+                <td>
+                    <a href="../p07/campo.html">
+                        <img src="../p07/fotosmini/campo_mini.jpg" alt="Campo miniatura">
+                    </a>
+                </td>
+                <td>Campo Toscano</td>
+                <td>Día 1, 09:00 AM</td>
+                <td>Hermosos paisajes de los campos abiertos de la Toscana.</td>
+                <td rowspan="3">Mapa general de la zona</td>
+            </tr>
+            <!-- Fila 2: Catedral -->
+            <tr>
+                <td>
+                    <a href="../p07/index.html">
+                        <img src="../p07/fotosmini/catedral_mini.jpg" alt="Catedral miniatura">
+                    </a>
+                </td>
+                <td>Catedral</td>
+                <td>Día 1, 12:00 PM</td>
+                <td>Arquitectura impresionante del lugar.</td>
+            </tr>
+            <!-- Fila 3: Sienna -->
+            <tr>
+                <td>
+                    <a href="../p07/sienna.html">
+                        <img src="../p07/fotosmini/sienna_mini.jpg" alt="Sienna miniatura">
+                    </a>
+                </td>
+                <td>Sienna</td>
+                <td>Día 1, 04:00 PM</td>
+                <td>Calles históricas y callejones tradicionales.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- TABLA 2: Mi Próxima Aventura -->
+    <h2>Tabla 2: Mi Próxima Aventura</h2>
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">Miniatura</th>
+                <th scope="col">Destino</th>
+                <th scope="col">Fecha estimada</th>
+                <th scope="col">Detalles</th>
+                <th scope="col">Referencia / Mapa</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <!-- Sustituye por tu imagen y enlace real cuando los agregues -->
+                    <a href="#">
+                        <img src="ruta-de-tu-miniatura.jpg" alt="Destino 1">
+                    </a>
+                </td>
+                <td>Lugar de tu próxima aventura</td>
+                <td>Fecha planeada</td>
+                <td>Descripción de lo que te gustaría visitar.</td>
+                <td>Ubicación</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
